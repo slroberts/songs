@@ -10,7 +10,7 @@ const SongList = ({ songs, selectSong }) => {
           <div className="right floated content">
             <button
               className="ui button primary"
-              onCLick={() => selectSong(song)}
+              onClick={() => selectSong(song)}
             >
               Select
             </button>
